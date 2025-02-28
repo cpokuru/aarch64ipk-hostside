@@ -1,0 +1,30 @@
+:~# opkg install --force-depends /nvram/simple-app_1.0.0_aarch64.ipk
+Installing simple-app (1.0.0) on root
+Configuring simple-app.
+root@Filogic-GW:~# 
+root@Filogic-GW:~# 
+root@Filogic-GW:~# 
+root@Filogic-GW:~# simple-app [   32.698025] export_store: invalid GPIO 23
+[   32.702210] export_store: invalid GPIO 24
+
+Hello from aarch64 device!
+This is a simple cross-compiled test application.
+root@Filogic-GW:~# 
+
+
+
+//------
+move simple-app
+Removing simple-app (1.0.0) from root...
+root@Filogic-GW:~# 
+root@Filogic-GW:~# 
+root@Filogic-GW:~# simpl
+-sh: simpl: command not found
+root@Filogic-GW:~# opkg install --force-depends /nvram/simple-app_1.0.0_aarch64.ipk
+Installing simple-app (1.0.0) on root
+Configuring simple-app.
+root@Filogic-GW:~# simple-app [   87.411771] systemd-journald[1077]: Data hash table of /run/log/journal/52a7f14b18e34cfe80d3965fb03add55/system.journal has a fill level at 75.0 (5462 of .
+[   87.433363] systemd-journald[1077]: /run/log/journal/52a7f14b18e34cfe80d3965fb03add55/system.journal: Journal header limits reached or header out-of-date, rotating.
+
+Hello from aarch64 device!
+This is a simple cross-compiled test applicatio
